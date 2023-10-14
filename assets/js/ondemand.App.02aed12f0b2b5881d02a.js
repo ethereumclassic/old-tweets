@@ -4412,96 +4412,96 @@
           );
         },
         Qr = [
-          // {
-          //   path: "information",
-          //   label: z.a.db70b04a,
-          //   component: function () {
-          //     var e,
-          //       t = ze(X.b),
-          //       a = Object(h.a)(t, 1)[0],
-          //       n = a.data,
-          //       l = Boolean(
-          //         (null === (e = n) || void 0 === e
-          //           ? void 0
-          //           : e.fieldLoadErrors) && n.fieldLoadErrors.length > 0
-          //       );
-          //     return r.a.createElement(
-          //       r.a.Fragment,
-          //       null,
-          //       r.a.createElement(gr, null, z.a.a450ed39),
-          //       r.a.createElement(
-          //         We,
-          //         Object(Z.a)({}, a, {
-          //           loadError: l,
-          //           noDataMessage: z.a.a6368dcb,
-          //         })
-          //       ),
-          //       !l &&
-          //         n &&
-          //         r.a.createElement(
-          //           r.a.Fragment,
-          //           null,
-          //           r.a.createElement(
-          //             dr,
-          //             { label: z.a.gc611216 },
-          //             r.a.createElement(
-          //               T.a,
-          //               { color: "deepGray", size: "small" },
-          //               kr(new Date(n.createdAt))
-          //             ),
-          //             r.a.createElement(
-          //               T.a,
-          //               { color: "deepGray", size: "small" },
-          //               Or({ createdVia: n.createdVia })
-          //             )
-          //           ),
-          //           r.a.createElement(br, {
-          //             nativeID: "account-information--account-id",
-          //             label: z.a.b858720c,
-          //             value: n.accountId,
-          //           }),
-          //           r.a.createElement(br, {
-          //             label: z.a.jddcdfb5,
-          //             value: n.timeZone,
-          //           }),
-          //           r.a.createElement(br, {
-          //             label: z.a.f562baf9,
-          //             value: n.userCreationIp,
-          //           }),
-          //           r.a.createElement(br, {
-          //             label: z.a.d0a2cd65,
-          //             value: n.email,
-          //           }),
-          //           r.a.createElement(br, {
-          //             label: z.a.ca948b38,
-          //             value: n.phoneNumber,
-          //           }),
-          //           r.a.createElement(br, {
-          //             label: z.a.a0b1619f,
-          //             value: Cr(n.age),
-          //           }),
-          //           r.a.createElement(br, {
-          //             label: z.a.h75fecfe,
-          //             value: n.verified ? z.a.a97eb7e8 : z.a.a6adcbe2,
-          //           }),
-          //           r.a.createElement(
-          //             dr,
-          //             { label: z.a.d0c13b0f },
-          //             r.a.createElement(jr, { changes: n.emailChanges })
-          //           ),
-          //           r.a.createElement(
-          //             dr,
-          //             { label: z.a.f3b7e4c1, lastField: !0 },
-          //             n.protectedHistory.length
-          //               ? n.protectedHistory.map(function (e, t) {
-          //                   return r.a.createElement(Lr, { key: t, change: e });
-          //                 })
-          //               : r.a.createElement(hr, null)
-          //           )
-          //         )
-          //     );
-          //   },
-          // },
+          {
+            path: "information",
+            label: z.a.db70b04a,
+            component: function () {
+              var e,
+                t = ze(X.b),
+                a = Object(h.a)(t, 1)[0],
+                n = a.data,
+                l = Boolean(
+                  (null === (e = n) || void 0 === e
+                    ? void 0
+                    : e.fieldLoadErrors) && n.fieldLoadErrors.length > 0
+                );
+              return r.a.createElement(
+                r.a.Fragment,
+                null,
+                r.a.createElement(gr, null, z.a.a450ed39),
+                r.a.createElement(
+                  We,
+                  Object(Z.a)({}, a, {
+                    loadError: l,
+                    noDataMessage: z.a.a6368dcb,
+                  })
+                ),
+                !l &&
+                  n &&
+                  r.a.createElement(
+                    r.a.Fragment,
+                    null,
+                    r.a.createElement(
+                      dr,
+                      { label: z.a.gc611216 },
+                      r.a.createElement(
+                        T.a,
+                        { color: "deepGray", size: "small" },
+                        kr(new Date(n.createdAt))
+                      ),
+                      r.a.createElement(
+                        T.a,
+                        { color: "deepGray", size: "small" },
+                        Or({ createdVia: n.createdVia })
+                      )
+                    ),
+                    r.a.createElement(br, {
+                      nativeID: "account-information--account-id",
+                      label: z.a.b858720c,
+                      value: n.accountId,
+                    }),
+                    r.a.createElement(br, {
+                      label: z.a.jddcdfb5,
+                      value: n.timeZone,
+                    }),
+                    r.a.createElement(br, {
+                      label: z.a.f562baf9,
+                      value: n.userCreationIp,
+                    }),
+                    r.a.createElement(br, {
+                      label: z.a.d0a2cd65,
+                      value: n.email,
+                    }),
+                    r.a.createElement(br, {
+                      label: z.a.ca948b38,
+                      value: n.phoneNumber,
+                    }),
+                    r.a.createElement(br, {
+                      label: z.a.a0b1619f,
+                      value: Cr(n.age),
+                    }),
+                    r.a.createElement(br, {
+                      label: z.a.h75fecfe,
+                      value: n.verified ? z.a.a97eb7e8 : z.a.a6adcbe2,
+                    }),
+                    r.a.createElement(
+                      dr,
+                      { label: z.a.d0c13b0f },
+                      r.a.createElement(jr, { changes: n.emailChanges })
+                    ),
+                    r.a.createElement(
+                      dr,
+                      { label: z.a.f3b7e4c1, lastField: !0 },
+                      n.protectedHistory.length
+                        ? n.protectedHistory.map(function (e, t) {
+                            return r.a.createElement(Lr, { key: t, change: e });
+                          })
+                        : r.a.createElement(hr, null)
+                    )
+                  )
+              );
+            },
+          },
           {
             path: "profile",
             label: z.a.b22ba8dc,
